@@ -1,0 +1,4 @@
+repository "FiatFighterz@zakiskoll@cloud"
+  path "/"
+    br "/main"
+    co "/main"

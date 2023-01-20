@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FiatShader 2
+  m_Shader: {fileID: 4800000, guid: aa244912e07a341cdba143fe65821b32, type: 3}
+  m_ShaderKeywords: DYE_ON GLOW_ON OUTLINE_ON PIXELSNAP_ON REPLACECOLOR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - FirstDye:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FirstDye:
+        m_Texture: {fileID: 2800000, guid: 74087f6d03f233e4a8a142fa01f9e5cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondDye:
+        m_Texture: {fileID: 2800000, guid: 10c9a5fb411f54e19b25e3d9eaebc67a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Dye: 1
+    - Dyes: 0
+    - Glow: 1
+    - Outline: 1
+    - PixelSnap: 1
+    - Replacecolor: 1
+    - _BumpScale: 1
+    - _Cur: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Glow: 3.68
+    - _GlowBrightness: 28.93
+    - _GlowTexel: 10
+    - _GlowWidth: 3
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineWidth: 1
+    - _Parallax: 0.02
+    - _ShadeFactor: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TextureScale: 10
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+    - _ColorReplaceFirst: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorReplaceSecond: {r: 0.29803923, g: 0.45490196, b: 0.6117647, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GlowColor: {r: 0, g: 0.63959074, b: 1, a: 1}
+    - _MaskColor1: {r: 0.30980393, g: 0.4392157, b: 0.6117647, a: 1}
+    - _MaskColor2: {r: 0.18039216, g: 0.27450982, b: 0.45882353, a: 1}
+    - _MaskColor3: {r: 0.67058825, g: 0.28627452, b: 0.12156863, a: 1}
+    - _MaskColor4: {r: 0.47058824, g: 0.18039216, b: 0.09803922, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReplacementColor1: {r: 1, g: 0.14463481, b: 0.02352941, a: 1}
+    - _ReplacementColor2: {r: 0, g: 1, b: 0.9216883, a: 1}
+  m_BuildTextureStacks: []

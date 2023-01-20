@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <uie:Toolbar style="justify-content: flex-start; flex-direction: row;">
+        <uie:ToolbarToggle label="Application" name="tglApplication" value="true" style="align-items: stretch; left: auto; flex-shrink: 1; flex-grow: 1;" />
+        <uie:ToolbarToggle label="API" name="tglApi" style="align-items: stretch; left: auto; flex-shrink: 1; flex-grow: 1;" />
+        <uie:ToolbarToggle focusable="false" label="Model" name="tglModel" style="flex-grow: 1; display: flex; flex-shrink: 1;" />
+    </uie:Toolbar>
+    <ui:VisualElement value="true" name="appPage" label="Application" style="align-items: stretch; flex-shrink: 1; display: flex;">
+        <uie:PropertyField binding-path="appId.applicationId" focusable="true" />
+        <uie:PropertyField binding-path="appId.clientId" focusable="true" />
+        <uie:PropertyField binding-path="appId.clientSecret" style="flex-grow: 1; display: flex;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="apiPage" style="display: none; visibility: visible;">
+        <uie:PropertyField binding-path="useStaging" />
+        <ui:VisualElement style="height: 25px;" />
+        <ui:Label text="Interface URLs" />
+        <uie:PropertyField binding-path="authentication" />
+        <uie:PropertyField binding-path="api" />
+        <uie:PropertyField binding-path="business" />
+        <uie:PropertyField binding-path="wallet" />
+        <uie:PropertyField binding-path="connect" />
+    </ui:VisualElement>
+    <ui:VisualElement name="modelPage" style="flex-grow: 1; display: none;">
+        <uie:Toolbar>
+            <uie:ToolbarButton name="addContract" tooltip="Add contract" style="width: auto; align-items: center; flex-direction: row;">
+                <ui:Label text="Add Contract" style="padding-left: 5px;" />
+            </uie:ToolbarButton>
+            <uie:ToolbarButton name="syncButton" tooltip="Sync data with blockchain" style="width: auto; align-items: center; flex-direction: row; padding-left: 4px; padding-right: 4px;">
+                <ui:Label text="Synchronise" />
+            </uie:ToolbarButton>
+        </uie:Toolbar>
+        <ui:VisualElement name="content" style="align-items: stretch;" />
+    </ui:VisualElement>
+</ui:UXML>

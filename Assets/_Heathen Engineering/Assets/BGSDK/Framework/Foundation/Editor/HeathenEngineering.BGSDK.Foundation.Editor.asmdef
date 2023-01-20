@@ -1,0 +1,17 @@
+{
+    "name": "HeathenEngineering.BGSDK.Foundation.Editor",
+    "references": [
+        "GUID:42e1668af036a5a45929c95a02bbc444"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
